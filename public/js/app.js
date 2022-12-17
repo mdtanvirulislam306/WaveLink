@@ -29693,13 +29693,13 @@ var render = function () {
         "div",
         { staticClass: "nk-main" },
         [
-          _c("Header"),
+          _c("Sidebar"),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "nk-wrap" },
             [
-              _c("Sidebar"),
+              _c("Header"),
               _vm._v(" "),
               _c("Dashboard"),
               _vm._v(" "),
@@ -31768,7 +31768,7 @@ var staticRenderFns = [
               { staticClass: "logo-link", attrs: { href: "index.html" } },
               [
                 _c("div", { staticClass: "logo-wrap" }, [
-                  _c("img", { attrs: { src: "" } }),
+                  _c("img", { attrs: { src: "images/logo.png" } }),
                 ]),
               ]
             ),

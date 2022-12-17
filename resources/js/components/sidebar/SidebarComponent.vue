@@ -5,7 +5,7 @@
             <div class="nk-sidebar-brand">
               <a href="index.html" class="logo-link">
                 <div class="logo-wrap">
-                 <img src=""/>
+                 <img src="images/logo.png"/>
                 </div>
               </a>
               <div class="nk-compact-toggle me-n1">

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Multi-purpose admin dashboard template that especially build for programmers.">
     <title>WAVE LINK</title>
-    <link rel="shortcut icon" href="{{asset('images/WL.png')}}images/WL.png">
+    <link rel="shortcut icon" href="{{asset('images/WL.png')}}">
     <link rel="stylesheet" href="{{asset('css/style8a4f.css')}}" >
   </head>
   <body class="nk-body" data-sidebar-collapse="lg" data-navbar-collapse="lg" >

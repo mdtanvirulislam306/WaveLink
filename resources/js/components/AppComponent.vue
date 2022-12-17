@@ -1,9 +1,9 @@
 <template>
     <div>
       <div class="nk-main">
-     <Header/>
+     <Sidebar/>
         <div class="nk-wrap">
-            <Sidebar/>
+         <Header/>
          <Dashboard/>
          <Footer/>
         </div>
