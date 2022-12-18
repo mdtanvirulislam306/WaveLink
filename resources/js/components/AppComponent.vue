@@ -3,29 +3,30 @@
       <div class="nk-main">
      <Sidebar/>
         <div class="nk-wrap">
-         <Header/>
-         <Dashboard/>
-         <Footer/>
+         <HeaderComponent/>
+         <router-view></router-view>
+         <FooterComponent/>
         </div>
         
       </div>
       <RightSidebar/>
+      
     </div>
 </template>
 <script>
 
- import Header from "./header/HeaderComponent.vue";
+ import HeaderComponent from "./header/HeaderComponent.vue";
  import Dashboard from "./dashboard/DashboardComponent.vue";
  import Sidebar from "./sidebar/SidebarComponent.vue";
- import Footer from "./footer/FooterComponent.vue";
+ import FooterComponent from "./footer/FooterComponent.vue";
  import RightSidebar from "./sidebar/RightSidebarComponent.vue";
 
     export default {
        components: {
-        Header,
+      HeaderComponent,
         Dashboard,
         Sidebar,
-        Footer,
+        FooterComponent,
         RightSidebar
         
        }

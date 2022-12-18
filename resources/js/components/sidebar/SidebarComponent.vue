@@ -26,12 +26,12 @@
               <div class="nk-sidebar-menu" data-simplebar>
                 <ul class="nk-menu">
                   <li class="nk-menu-item">
-                    <a href="index-ecommerce.html" class="nk-menu-link">
+                    <router-link to="/" class="nk-menu-link">
                       <span class="nk-menu-icon">
                         <em class="icon ni ni-dashboard"></em>
                       </span>
                       <span class="nk-menu-text">Dashboard</span>
-                    </a>
+                    </router-link>
                   </li>
                   <!-- Service-->
                   <li class="nk-menu-item has-sub">
@@ -43,14 +43,14 @@
                     </a>
                     <ul class="nk-menu-sub">
                       <li class="nk-menu-item">
-                        <a href="itServiceList.html" class="nk-menu-link">
+                        <router-link to="/itservice" class="nk-menu-link">
                           <span class="nk-menu-text">IT Service</span>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="nk-menu-item">
-                        <a href="service.html" class="nk-menu-link">
+                        <router-link to="/ispservice" class="nk-menu-link">
                           <span class="nk-menu-text">ISP Service</span>
-                        </a>
+                        </router-link>
                       </li>
                     </ul>
                   </li>
