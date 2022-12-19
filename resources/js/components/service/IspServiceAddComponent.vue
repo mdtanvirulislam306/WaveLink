@@ -6,7 +6,7 @@
                   <div class="nk-block-head">
                     <div class="nk-block-head-between flex-wrap gap g-2">
                       <div class="nk-block-head-content">
-                        <h2 class="nk-block-title">Add IT Service </h2>
+                        <h2 class="nk-block-title">Add ISP Service </h2>
                           <nav>
                             <ol class="breadcrumb breadcrumb-arrow mb-0">
                               <li class="breadcrumb-item">
@@ -15,7 +15,7 @@
                               <li class="breadcrumb-item">
                                 <a href="#">Service</a>
                               </li>
-                              <li class="breadcrumb-item active" aria-current="page">Add IT Service</li>
+                              <li class="breadcrumb-item active" aria-current="page">Add ISP Service</li>
                             </ol>
                           </nav>
                       </div>
@@ -28,9 +28,9 @@
                             </a>
                           </li>
                           <li>
-                            <router-link to="/itservice" class="btn btn-primary d-none d-md-inline-flex">
+                            <router-link to="/ispservice" class="btn btn-primary d-none d-md-inline-flex">
                               <em class="icon ni ni-eye"></em>
-                              <span>View IT Service</span>
+                              <span>View ISP Service</span>
                             </router-link>
                           </li>
                         </ul>

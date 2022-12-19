@@ -3,7 +3,9 @@ require('./bootstrap');
 import Vue from "vue";
 import VueRouter from "vue-router";
 import {routes} from "./routes";
+import VueResource from "vue-resource";
 Vue.use(VueRouter);
+Vue.use(VueResource);
 const router = new VueRouter({
     routes,
     mode:'history' // short for `routes: routes`

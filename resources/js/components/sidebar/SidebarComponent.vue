@@ -64,14 +64,14 @@
                     </a>
                     <ul class="nk-menu-sub">
                       <li class="nk-menu-item">
-                        <a href="service.html" class="nk-menu-link">
+                        <router-link to="/itorder" class="nk-menu-link">
                           <span class="nk-menu-text">IT Order</span>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="nk-menu-item">
-                        <a href="service.html" class="nk-menu-link">
+                        <router-link to="/isporder" class="nk-menu-link">
                           <span class="nk-menu-text">ISP Order</span>
-                        </a>
+                        </router-link>
                       </li>
                     </ul>
                   </li>
@@ -85,9 +85,9 @@
                     </a>
                     <ul class="nk-menu-sub">
                       <li class="nk-menu-item">
-                        <a href="service.html" class="nk-menu-link">
+                        <router-link to="/customerlist" class="nk-menu-link">
                           <span class="nk-menu-text">Customer List</span>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="nk-menu-item">
                         <a href="service.html" class="nk-menu-link">
