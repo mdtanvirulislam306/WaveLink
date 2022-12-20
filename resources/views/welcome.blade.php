@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Multi-purpose admin dashboard template that especially build for programmers.">
     <title>WAVE LINK</title>
     <link rel="shortcut icon" href="{{asset('images/WL.png')}}">
@@ -18,8 +18,8 @@
   <script src="{{asset('js/bundle.js')}}"></script>
   <script src="{{asset('js/scripts.js')}}"></script>
   <script src="{{asset('js/charts/ecommerce-chart.js')}}"></script>
-  <script src="{{asset('js/sweetalert/sweetalert-example.js')}}"></script>
-  <script src="{{asset('js/data-tables/data-tables.js')}}"></script>
+  <!-- <script src="{{asset('js/sweetalert/sweetalert-example.js')}}"></script> -->
+  <!-- <script src="{{asset('js/data-tables/data-tables.js')}}"></script> -->
   <link rel="stylesheet" href="{{asset('css/libs/editors/quill8a4f.css?v1.1.0')}}"/>
 </link>
 <script src="{{asset('js/libs/editors/quill.js')}}"></script>
