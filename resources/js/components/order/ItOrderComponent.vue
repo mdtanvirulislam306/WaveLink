@@ -44,7 +44,7 @@
                        <tr>
                         <th class="tb-col tb-col-check" data-sortable="false">
                          <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" @click="isSelect">
+                          <input class="form-check-input" type="checkbox" value="">
                          </div>
                         </th>
                         <th class="tb-col">
@@ -1362,13 +1362,11 @@
     export default {
         data(){
             return{
-                isSelect:false 
+                
             }
         },
         methods:{
-            isSelect(){
-               this.isSelect=!this.isSelect;
-            }
+            
         }
     }
     </script>
